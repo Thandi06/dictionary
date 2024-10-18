@@ -148,6 +148,7 @@ header.chat-header {
         font-size: 14px;
         /* Adjust header font size */
         padding: 8px;
+        position: fixed;
     }
 
     .chat-box {
@@ -198,6 +199,7 @@ header.chat-header {
     .chat-header {
         font-size: 12px;
         padding: 6px;
+        position: fixed;
     }
 
     .chat-box {
