@@ -170,11 +170,11 @@ header.chat-header {
 
     .chat-input {
         font-size: 13px;
-        padding: 8px;
+        padding: 10px;
     }
 
     .send-button {
-        padding: 8px 12px;
+        padding: 10px 12px;
         font-size: 13px;
     }
 
@@ -207,11 +207,11 @@ header.chat-header {
 
     .chat-input {
         font-size: 12px;
-        padding: 6px;
+        padding: 10px;
     }
 
     .send-button {
-        padding: 6px 10px;
+        padding: 10px 10px;
         font-size: 12px;
     }
 
