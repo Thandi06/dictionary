@@ -144,7 +144,7 @@ header.chat-header {
         /* Remove rounded corners */
     }
 
-    .chat-header {
+    header.chat-header {
         font-size: 14px;
         /* Adjust header font size */
         padding: 8px;
@@ -164,8 +164,6 @@ header.chat-header {
 
     .chat-box {
         padding: 5px;
-        overflow-y: auto;
-        flex: 1;
         /* Compact padding */
     }
 
