@@ -170,19 +170,19 @@ header.chat-header {
 
     .chat-input {
         font-size: 13px;
-        padding: 8px;
+        padding: 10px;
     }
 
     .send-button {
-        padding: 8px 12px;
-        font-size: 13px;
+        padding: 10px 12px;
+        font-size: 14px;
     }
 
     .user-message,
     .bot-message {
-        font-size: 13px;
+        font-size: 14px;
         /* Compact font size */
-        padding: 7px;
+        padding: 10px;
         margin: 2px 0;
         /* Tighten vertical space */
     }
@@ -196,8 +196,8 @@ header.chat-header {
     }
 
     .chat-header {
-        font-size: 12px;
-        padding: 6px;
+        font-size: 14px;
+        padding: 10px;
     }
 
     .chat-box {
@@ -206,19 +206,19 @@ header.chat-header {
     }
 
     .chat-input {
-        font-size: 12px;
-        padding: 6px;
+        font-size: 14px;
+        padding: 10px;
     }
 
     .send-button {
-        padding: 6px 10px;
-        font-size: 12px;
+        padding: 10px 10px;
+        font-size: 14px;
     }
 
     .user-message,
     .bot-message {
-        font-size: 12px;
-        padding: 6px;
+        font-size: 14px;
+        padding: 10px;
         margin: 2px 0;
     }
 }
