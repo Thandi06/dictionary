@@ -149,10 +149,23 @@ header.chat-header {
         /* Adjust header font size */
         padding: 8px;
         position: fixed;
+        text-align: center;
+        position: fixed;
+            /* Keep the header fixed */
+        top: 0;
+            /* Align to the top of the screen */
+        width: 100%;
+            /* Full width on smaller screens */
+        max-width: 400px;
+            /* Align with container */
+        z-index: 10;
+            /* Keep it on top of other elements */
     }
 
     .chat-box {
         padding: 5px;
+        overflow-y: auto;
+        flex: 1;
         /* Compact padding */
     }
 
@@ -199,7 +212,7 @@ header.chat-header {
     .chat-header {
         font-size: 12px;
         padding: 6px;
-        position: fixed;
+        
     }
 
     .chat-box {
