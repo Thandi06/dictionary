@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css">
+    <title>Dictionary AI</title>
+</head>
+
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Dictionary AI</h1>
+        </header>
+        <main class="chat-box" id="chat-box">
+            <!-- Chat messages will appear here -->
+        </main>
+        <footer class="chat-footer">
+            <form id="chatbot-form" class="chat-input-form">
+                <input type="text" placeholder="Faka igama lapha..." autofocus required autocomplete="off"
+                    class="chat-input" id="user-question" />
+                <button type="submit" class="send-button">Send</button>
+            </form>
+        </footer>
+    </div>
+
+    <script src="src/script.js"></script>
+</body>
+
+</html>
