@@ -131,25 +131,45 @@ header.chat-header {
     border-radius: 10px;
 }
 
-/* Responsive Design */
+/* Responsive Design for Tablets and Smaller Screens */
 @media (max-width: 768px) {
     .chat-container {
         width: 100%;
-        /* Full width on smaller screens */
-        height: 100%;
-        /* Full height */
+        /* Full width on mobile */
+        height: 100vh;
+        /* Fill the entire screen height */
+        max-height: none;
+        /* No max height limits */
         border-radius: 0;
-        /* Remove rounded corners for mobile */
+        /* Remove rounded corners */
     }
 
     .chat-header {
         font-size: 14px;
+        /* Adjust header font size */
         padding: 8px;
+    }
+
+    .chat-box {
+        padding: 5px;
+        /* Compact padding */
+    }
+
+    .chat-footer {
+        position: fixed;
+        /* Stick footer to bottom */
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        /* Full width footer */
+        max-width: 400px;
+        /* Align with chat-container */
+        background-color: #f0f0f0;
+        border-top: 1px solid #ddd;
     }
 
     .chat-input {
         font-size: 13px;
-        /* Adjust input font size */
         padding: 8px;
     }
 
@@ -158,23 +178,31 @@ header.chat-header {
         font-size: 13px;
     }
 
-    .chat-box {
-        padding: 5px;
-        /* Reduce padding on smaller devices */
-    }
-
     .user-message,
     .bot-message {
         font-size: 13px;
-        /* Smaller font size for chat bubbles */
+        /* Compact font size */
         padding: 7px;
-        /* Smaller padding for chat bubbles */
+        margin: 2px 0;
+        /* Tighten vertical space */
     }
 }
 
+/* Further Optimization for Very Small Screens */
 @media (max-width: 480px) {
+    .chat-container {
+        height: 100vh;
+        /* Ensure full height */
+    }
+
     .chat-header {
         font-size: 12px;
+        padding: 6px;
+    }
+
+    .chat-box {
+        padding: 4px;
+        /* Minimal padding */
     }
 
     .chat-input {
@@ -191,5 +219,6 @@ header.chat-header {
     .bot-message {
         font-size: 12px;
         padding: 6px;
+        margin: 2px 0;
     }
 }
